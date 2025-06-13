@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Cal+Sans&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sono:wght@200..800&display=swap');
+
+body{
+    background-color: black;
+}
+/* navbar starts */
+.navbar{
+    display: flex;
+    border-radius: 8px;
+  
+}
+.logo{
+  
+    width: 100px;
+    height: 35px;
+    object-fit: contain;
+    
+}
+.homepage{
+    width: 30px;
+    height: 30px;
+    border: solid rgba(186, 185, 185, 0) 2px;
+    
+
+    border-radius: 8px;
+    object-fit: contain;
+    margin-left: 60px;
+}
+.form{
+    margin-left: 40px;
+    height: 30px;
+    width: 500px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    border: solid black;
+    color: rgb(186, 185, 185);
+}
+
+.form::placeholder{
+    color:rgb(186, 185, 185)
+
+}
+.options{
+    display: flex;
+    
+}
+.text{
+    background-color: black;
+    border: solid black;
+    margin-top: 5px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color:  rgb(186, 185, 185);
+    margin-left: 10px;
+    text-decoration: none;
+}
+.text:first-child{
+    margin-left: 20px;
+}
+.text:nth-child(4){
+    margin-left: 25px;
+}
+.LogIn{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    border:solid black;
+    font: weight 6px;
+}
+/* navbar ends */
+.main{
+    display:flex;
+}
+.left{
+    width: 400px;
+    background-color: rgb(22, 21, 21);
+    margin-top: 10px;
+    height: 520px;
+    border-radius: 10px;
+}
+.right{
+    margin-top: 10px;
+    background-color: rgb(22, 21, 21);
+    height: 520px;
+    border-radius: 10px;
+    width: 850px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.libtitle{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: solid transparent;
+    font-size: 26px;
+    background-color: transparent;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.playlist{
+    /* change top border radius to zero and set color to whitish greyish or something for that underline effect */
+    margin-top: 24px;
+    margin-left: 15px;
+    background-color:transparent;
+    width: 386px;
+    height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    border-top: solid white 0.3px;
+    border-bottom: solid white 0.3px;    
+}
+/* for representing the song  */
+.song{
+    margin-bottom: 15px;
+    margin-left: 1px;
+    width: 364px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    border: solid gray 1px;
+    
+}
+.song:first-child{
+    margin-top: 30px;
+    
+}
+.tuneimage{
+    margin-top: 9px;
+    width: 30px;
+    height:30px ;
+    object-fit: contain;
+    margin-left: 6px;
+
+}
+.container{
+    margin-top: 6px;
+    margin-left: 9px;
+    display: flex;
+    flex-direction: column;
+    height: 42px;
+    width: 209px;
+    background-color: transparent;
+}
+
+.songtitle{
+    font-family: 'Poppins';
+    font-size: 10.38px;
+    width: 220px;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    text-wrap: wrap
+    ;
+    /* background-color: white; */
+    
+}
+
+
+
+.playnow{
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Poppins';
+    background-color: transparent;
+    text-align: center;
+    margin-top: 5px;
+    height: 38px;
+    margin-left: 3px;
+    width: 91px;
+    font-size:10px;
+    border: solid transparent;
+
+}
+
+.playimg{
+    width: 16px;
+    height:16px;
+    margin-left: 12px;
+}
+/* song representation ends here */
+
+
+
+/* for displaying the more info tab */
+
+.moreinfo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-left: 15px;
+    height: 98px;
+    width: 371px;
+    background-color: transparent;
+    border-radius:10px; 
+    border: solid transparent;
+    justify-content: left;  
+} 
+.moretext{
+    font-family: 'Poppins';
+    font-size: 9px;
+    text-align: left;
+    width: 76px;
+    height: 20px;
+    background-color:transparent;
+    color: rgb(186, 185, 185);
+    border: transparent;
+    background-color: transparent;
+    margin: 8px;
+    text-decoration: none;
+}
+/* More info tab ends here */
+
+
+
+
+
+/* For no songs playing status */
+.status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 15px;
+    width: 386px;
+    height: 300px;
+    border-radius: 0px;
+    border-top: solid white 0.3px;
+    border-bottom: solid white 0.3px;
+}
+
+.statustitle{ 
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poppins';
+    height: 50px;
+    width: 380px;
+    margin: 5px;
+    font-size: 22px;
+    color: white;
+}
+.suggestedaction{
+    text-align: center;
+    font-family: 'Poppins';
+    height: 50px;
+    width: 280px;
+    font-size: 16px;
+    color: rgb(186, 185, 185);
+}
+/* no songs playing styles end here */
+
+
+/*Playlist collection starts here*/
+
+.playframe{
+    width: 819px;
+    height: 374px;
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: solid white 0.3px;
+
+}
+
+.videoplay{
+    width: 819px;
+    height: 125px;
+    background-color: transparent;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+/* individual playlist representation starts */
+.songbox{
+    width: 185px;
+    height: 185px;
+    background-color: #262323;
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.thumbnail{
+    width: 155px;
+    height: 122px;
+    object-fit: contain;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.title{
+    width: 155px;
+    height: 22px;
+    overflow-x: hidden;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-size: 13px;
+    margin-left: 14px;
+    font-weight: bolder;
+    color: white;
+    border: transparent;
+    text-align: left;
+    text-wrap: nowrap;
+    
+}
+.artist{
+    width: 155px;
+    height: 22px;
+    font-size: 14px;
+    color: white;
+    margin-left:14px; 
+    font-family: 'Poppins';
+    background-color: transparent;
+    font-size: 7.2px;
+    overflow-y: hidden;
+    border: transparent;
+    text-align: left;
+    background-color:transparent
+    ;
+}
+/* individual playlist representation ends */
+
+/* in the case no playlists are saved/detected  starts here*/
+.elseplayframe{
+    width: 819px;
+    height: 374px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: solid white 0.3px;
+}
+.message{
+    font-size: 28px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    text-align: center;
+    width: 700px;
+    height: 50px;
+    color:white;
+    
+}
+
+
+/* Playlist collection ends here */
+
+
+
+
+/* scrollbar starts here */
+
+/* scrollbar ends here */
+.playlist::-webkit-scrollbar{
+    background: transparent;
+}
+ 
+.playframe::-webkit-scrollbar{
+    background:transparent;
+}
+
+.moretext:hover{
+    color: white;
+}
+.s:hover{
+    color: white;
+}
+.homepage:hover{
+    background-color: white;   
+}
+.randombs:hover{
+    text-decoration: underline white 1px;
+}
+.song:hover{
+    background-color: rgba(186, 186, 185, 0.285);
+}
+.songbox:hover{
+    background-color: rgba(186, 186, 185, 0.285);
+}
+
+
+/* audioplayer begins here */
+.controls{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: transparent;
+}
+.currsong{
+    font-family: 'Poppins';
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 273px;
+    margin-top: 5px;
+    text-wrap: wrap;
+    height: 65px;
+    font-weight: bold;
+}
+
+.buttons{
+    width: 40px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border: transparent ;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seekbar{
+    accent-color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 795px;
+    height: 3px;
+    border-radius: 1px;
+    border: transparent;
+}
+.images{
+     width: 34px;
+    height: 22px;
+    object-fit: contain;
+}
+.volume{
+    display: flex;
+}
+.newimg{
+    margin-right: 5px;
+    object-fit: contain;
+    height: 25px;
+    width: 25px;
+    margin-top: 14px;
+}
+
+
+.seekbar2{
+    height: 3px;
+    margin-top: 24px;
+    margin-left: 5px;
+    accent-color: white;
+}

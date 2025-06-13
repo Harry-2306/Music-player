@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="elementsimages/favicon_spotify.ico">
+    <link rel="stylesheet" href="styling.css">
+    
+</head>
+
+<body>
+    <!-- the navbar -->
+    <div class="navbar">
+        <img src="elementsimages/perfectlogo.svg" alt="logo" class="logo">
+        <img src="elementsimages/homepage.svg" alt="" class="homepage">
+        <form action="get">
+            <input type="text" placeholder="  What do you want to play ?" class="form">
+        </form>
+        <div class="options">
+            <a class="text s" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Premium</a>
+            <a class="text s" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Support</a>
+            <a class="text s" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank">Download&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                    style="font-weight: lighter; color: white; font-size: 16px;" class="shit">|</span></a>
+            <a class="text s" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Sign Up</a>
+            <a class="text LogIn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Login</a>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <div class="main">
+        <div class="left">
+            <button class="libtitle"><img src="elementsimages/library.svg" class="icon"></img>Your Library</button>
+            <!-- <div class="playlist">
+                <div class="song">
+                    <img src="elementsimages/tunes.svg" alt="music" class="tuneimage">     dunzo
+                    <div class="container">
+                        <div class="songtitle">Phir Le Aaya dil Arijit Singh</div>         dunzo
+
+                    </div>
+                    <button class="playnow">
+                        <span class="randombs">Play Now</span>
+                        <img src="elementsimages/playtune.svg" alt="play" class="playimg">
+                    </button>
+                </div>
+                
+
+            </div> -->
+            <div class="status">
+                <div class="statustitle">Looks like nothing's on right now</div>
+                <div class="suggestedaction">Select a playlist and start listening!</div>
+            </div>
+
+            <div class="moreinfo">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="moretext" target="_blank">Legal</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="moretext" target="_blank">Privacy&Safety
+                    Center</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="moretext" target="_blank">PrivacyPolicy</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="moretext" target="_blank">Cookies</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="moretext" target="_blank">AboutAds</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="moretext" target="_blank">Accessibility</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="moretext" target="_blank">Notice</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"  class="moretext">YourPrivacyChoices</a>
+
+            </div>
+        </div>
+
+        <div class="right">
+            <!-- <div class="playframe">
+                <div class="songbox">
+                    <img src="elementsimages/testingimage.png" alt="" class="thumbnail">
+                    <button class="title">Lorem, ipsum dolor.</button>
+                    <button class="artist">Lorem ipsum dolor, sit amet consectetur adipisicing.</button>
+                </div>
+            </div> -->
+
+            <!-- <div class="elseplayframe">
+                <div class="message">It looks like you don't have any saved playlists.</div>
+            </div> -->
+
+            <div class="videoplay">
+                <div class="controls">
+                    <div class="currsong"></div>
+                    <button class="buttons"><img src="elementsimages/rewind.svg" alt="rewind" class="images" ></button>
+                    <button class="buttons" id="high"><img src="elementsimages/play.svg" alt="playbutton" class="images" id="play"></button>
+                    <button class="buttons"><img src="elementsimages/forward.svg" alt="forward" class="images"  ></button>
+                    <div class="volume">
+                        <img src="elementsimages/volume.svg" alt="volume" class="newimg">
+                        <input type="range" id="0" class="seekbar2" value="50">
+                        <audio src="" style="width: 1px; height: 1px;" ></audio>
+                    </div>
+                </div>
+                <input type="range" class="seekbar" >
+            </div> <!--for the audiocontroller-->
+
+        </div>
+    </div>
+    <script  src="script.js" defer></script>
+</body>
+
+</html>
