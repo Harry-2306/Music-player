@@ -1,8 +1,8 @@
-let sourcelink = "http://127.0.0.1:5500/spotify%20clone/music/"       //the main link
-let play="http://127.0.0.1:5500/spotify%20clone/elementsimages/play.svg"
-let pauses="http://127.0.0.1:5500/spotify%20clone/elementsimages/pause.svg"
-let tunes="http://127.0.0.1:5500/spotify%20clone/elementsimages/tunes.svg"
-let playtune="http://127.0.0.1:5500/spotify%20clone/elementsimages/playtune.svg"
+var sourcelink = "http://127.0.0.1:5501/music/"       //the main link
+var play="http://127.0.0.1:5501/elementsimages/play.svg"
+var pauses="http://127.0.0.1:5501/elementsimages/pause.svg"
+var tunes="http://127.0.0.1:5501/elementsimages/tunes.svg"
+var playtune="http://127.0.0.1:5501/elementsimages/playtune.svg"
 
 
 
@@ -392,7 +392,6 @@ async function main(play,pauses) {
         document.getElementById("play").src = pauses
         audio.play()
         toggleswitch = 1
-
 
 
 
